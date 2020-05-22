@@ -23,13 +23,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.DrawTriangle">
-    <configuration name="CountFromTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="count_from_to.CountFromTo" />
+  <component name="RunManager" selected="Application.ParametricAverage">
+    <configuration name="DrawDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="draw_diagonal.DrawDiagonal" />
       <module name="expressions-and-control-flow" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="count_from_to.*" />
+          <option name="PATTERN" value="draw_diagonal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -37,12 +37,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DrawTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="draw_triangle.DrawTriangle" />
+    <configuration name="DrawDiamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="draw_diamond.DrawDiamond" />
       <module name="expressions-and-control-flow" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="draw_triangle.*" />
+          <option name="PATTERN" value="draw_diamond.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -50,12 +50,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fizz_buzz.FizzBuzz" />
+    <configuration name="DrawSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="draw_square.DrawSquare" />
       <module name="expressions-and-control-flow" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fizz_buzz.*" />
+          <option name="PATTERN" value="draw_square.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multiplication_table.MultiplicationTable" />
+    <configuration name="GuessTheNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guees_the_number.GuessTheNumber" />
       <module name="expressions-and-control-flow" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multiplication_table.*" />
+          <option name="PATTERN" value="guees_the_number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="print_even.PrintEven" />
+    <configuration name="ParametricAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parametric_average.ParametricAverage" />
       <module name="expressions-and-control-flow" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="print_even.*" />
+          <option name="PATTERN" value="parametric_average.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,19 +90,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PrintEven" />
-      <item itemvalue="Application.MultiplicationTable" />
-      <item itemvalue="Application.CountFromTo" />
-      <item itemvalue="Application.FizzBuzz" />
-      <item itemvalue="Application.DrawTriangle" />
+      <item itemvalue="Application.DrawDiamond" />
+      <item itemvalue="Application.DrawSquare" />
+      <item itemvalue="Application.DrawDiagonal" />
+      <item itemvalue="Application.GuessTheNumber" />
+      <item itemvalue="Application.ParametricAverage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DrawTriangle" />
-        <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.CountFromTo" />
-        <item itemvalue="Application.MultiplicationTable" />
-        <item itemvalue="Application.PrintEven" />
+        <item itemvalue="Application.ParametricAverage" />
+        <item itemvalue="Application.GuessTheNumber" />
+        <item itemvalue="Application.DrawDiagonal" />
+        <item itemvalue="Application.DrawSquare" />
+        <item itemvalue="Application.DrawDiamond" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590132863494</updated>
-      <workItem from="1590132871128" duration="8407000" />
+      <workItem from="1590132871128" duration="20360000" />
     </task>
     <servers />
   </component>
@@ -124,21 +124,21 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1342" height="187" key="GridCell.Tab.0.bottom" timestamp="1590140823095">
+    <state width="1342" height="187" key="GridCell.Tab.0.bottom" timestamp="1590161079936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590140823095" />
-    <state width="1342" height="187" key="GridCell.Tab.0.center" timestamp="1590140823095">
+    <state width="1342" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590161079936" />
+    <state width="1342" height="187" key="GridCell.Tab.0.center" timestamp="1590161079936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590140823095" />
-    <state width="1342" height="187" key="GridCell.Tab.0.left" timestamp="1590140823094">
+    <state width="1342" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590161079936" />
+    <state width="1342" height="187" key="GridCell.Tab.0.left" timestamp="1590161079936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590140823094" />
-    <state width="1342" height="187" key="GridCell.Tab.0.right" timestamp="1590140823095">
+    <state width="1342" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590161079936" />
+    <state width="1342" height="187" key="GridCell.Tab.0.right" timestamp="1590161079936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590140823095" />
+    <state width="1342" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590161079936" />
   </component>
 </project>

@@ -14,13 +14,12 @@ public class Mentor extends Person{
     }
 
     @Override
-    public void getGoal(){
-        System.out.println("My goal is: Educate brilliant junior software developers");
+    public String specificGoal(){
+        return "Educate brilliant junior software developers";
     }
 
     @Override
-    public void introduce(){
-        System.out.println("Hi, I'm " + this.name + ", a " + this.age + " year old " + this.gender + " " + this.level
-                + " mentor");
+    public String specificIntroduce(){
+        return this.level + " mentor";
     }
 }

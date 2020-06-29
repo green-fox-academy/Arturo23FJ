@@ -9,6 +9,6 @@ public class Exercise7 {
         List<String> cities = Arrays.asList
                 ("ROME", "LONDON", "NAIROBI", "CALIFORNIA", "ZURICH", "NEW DELHI", "AMSTERDAM", "ABU DHABI", "PARIS");
 
-        
+        cities.stream().filter(city -> city.startsWith("R")).forEach(city -> System.out.println(city));
     }
 }

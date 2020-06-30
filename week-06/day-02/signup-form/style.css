@@ -1,0 +1,97 @@
+body{
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.tocenter{
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.container{
+  width: 50%;
+  background-color: #fff;
+  padding: 50px 75px 50px;
+  margin: 100px 0px 100px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+form{
+  width: 300px;
+}
+
+h1{
+  font-size: 26px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+button{
+  background-color: #1BA67E;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 30px;
+}
+
+input{
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 20px;
+  padding: 10px 0 10px 20px;
+  border: none;
+  border-bottom: 1px solid #f2f2f2;
+  box-shadow: none;
+  display: block;
+}
+
+input:focus{
+  border-bottom: 2px solid #1BA67E;
+  outline: none;
+}
+
+.or p{
+  background-color: #dadbdc;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 2px #888;
+}
+
+.socialmedia p{
+  padding: 10px 100px;
+}
+
+.socialmedia p:first-child{
+  background-color: #32508c;
+}
+
+.socialmedia p:nth-child(2){
+  background-color: #5cb9f2;
+} 
+
+.socialmedia p:last-child{
+  background-color: #d9483b;
+}
+
+a{
+  color: #fff;
+  text-decoration: inherit;
+}
+
+a:hover{
+  text-shadow: 0px 0px 1px #000;
+  color: #000;
+}

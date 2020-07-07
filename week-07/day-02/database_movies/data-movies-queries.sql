@@ -12,12 +12,12 @@ SELECT title FROM Movie LEFT JOIN Rating ON Movie.mID = Rating.mID WHERE stars I
 
 /*Exercise 4*/
 
-SELECT reviewer.name FROM rating INNER JOIN movie ON rating.mID = movie.mID INNER JOIN reviewer ON rating.rID = reviewer.rID WHERE rating.ratingDate IS NULL;
+SELECT Reviewer.name FROM rating INNER JOIN Movie ON Rating.mID = Movie.mID INNER JOIN Reviewer ON Rating.rID = Reviewer.rID WHERE Rating.ratingDate IS NULL;
 
 /*Exercise 5*/
 
-SELECT reviewer.name, movie.title, rating.stars, rating.ratingDate FROM rating INNER JOIN movie ON rating.mID = movie.mID INNER JOIN reviewer ON rating.rID = reviewer.rID ORDER BY reviewer.name ASC, movie.title ASC, rating.stars ASC;
+SELECT Reviewer.name, Movie.title, Rating.stars, Rating.ratingDate FROM Rating INNER JOIN Movie ON Rating.mID = Movie.mID INNER JOIN Reviewer ON Rating.rID = Reviewer.rID ORDER BY Reviewer.name ASC, Movie.title ASC, Rating.stars ASC;
 
 /*Exercise 6*/
 
-SELECT reviewer.name, movie.title FROM Movie JOIN rating AS r1 ON r1.mID = movie.mID JOIN rating AS r2 ON r2.rID = r1.rID JOIN reviewer ON r1.rID = reviewer.rID WHERE r1.mID = r2.mID AND r1.ratingDate < r2.ratingDate AND r1.stars < r2.stars;
+SELECT Reviewer.name, Movie.title FROM Movie JOIN rating AS r1 ON r1.mID = Movie.mID JOIN Rating AS r2 ON r2.rID = r1.rID JOIN Reviewer ON r1.rID = Reviewer.rID WHERE r1.mID = r2.mID AND r1.ratingDate < r2.ratingDate AND r1.stars < r2.stars;

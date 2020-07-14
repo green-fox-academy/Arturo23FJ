@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Programmer Fox Club</title>
+</head>
+<body>
+<header>
+    <h1>Welcome to the Programmer Fox Club!</h1>
+</header>
+<main>
+    <p>Please provide a name, so you can associate it to your pet!</p>
+    <form action="/login" method="post">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" required>
+        <button type="submit" name="option" value="go">GO</button>
+    </form>
+</main>
+</body>
+</html>

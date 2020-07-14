@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Programmer Fox Club</title>
+</head>
+<body>
+<header>
+    <ul>
+        <li><a th:href="'/?name=' + ${fox.getName()}">Information</a></li>
+    </ul>
+</header>
+<main>
+    <img src="greenfox.png" alt="green-fox-logo">
+    <p th:text="'This is ' + ${fox.getName()} + '. Currently living on '  + ${fox.getFood()} + ' and ' + ${fox.getDrink()} +
+    '. He knows ' + ${fox.getTricksList().size()} + ' tricks'"></p>
+    <h2>Known tricks</h2>
+    <table>
+        <tr th:if="${fox.getTricksList()} != 0" th:each="tricks: ${fox.getTricksList()}">
+            <td th:text="${tricks.getName()}"></td>
+        </tr>
+        <tr th:if="${fox.getTricksList().size == 0}">
+            <td th:text="${fox.getName()} + ' doesn\'t know any tricks yet. Go and teach him some'"></td>
+        </tr>
+    </table>
+</main>
+</body>
+</html>
